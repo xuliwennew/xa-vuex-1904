@@ -1,0 +1,11 @@
+VUEX 解决平行组件之间的数据共享问题,单例,观察者
+
+redis maemcached
+
+5步法
+1,安装vuex npm install vuex -S,
+  把vuex作为 plugin安装到vue的原型 上。
+2,使用vuex创建一个单例的store对象
+  使用store对象来管理组件中需要共享的状态 
+3,制订store中的管理规则
+4,把创建好的store注册到Vue实例上
