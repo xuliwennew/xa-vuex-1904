@@ -17,8 +17,10 @@ export default {
     }
   },
   computed:{
+
     ...mapGetters({
       num:"getNum" //store.getters 
+     
     })
   },
   methods:{
